@@ -7,14 +7,13 @@ public class Bananna extends Fruit {
 
     private int numofgen;
 
+    public Bananna(int weight, String color) {
+        super(weight, color);
+    }
+
     @Override
     public void SayName(){
         System.out.println("Ya bananan");
-    }
-
-
-    public Bananna(int weight, String color) {
-        super(weight, color);
     }
 
     public int getNumofgen() {

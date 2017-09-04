@@ -12,6 +12,12 @@ public abstract class Weapon   {
     private int attack;
     private int manaattack;
 
+    public Weapon(String name, int attack, int manaattack) {
+        this.name = name;
+        this.attack = attack;
+        this.manaattack = manaattack;
+    }
+
     public int getAttack() {
         return attack;
     }
@@ -23,10 +29,6 @@ public abstract class Weapon   {
     public int getManaattack() {
         return manaattack;
     }
-
-
-
-
 
     public void setManaattack(int manaattack) {
         this.manaattack = manaattack;
@@ -40,11 +42,5 @@ public abstract class Weapon   {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public Weapon(String name, int attack, int manaattack) {
-        this.name = name;
-        this.attack = attack;
-        this.manaattack = manaattack;
     }
 }

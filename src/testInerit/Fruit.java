@@ -7,13 +7,13 @@ public class Fruit {
     private int weight;
     private String color;
 
-    public void SayName(){
-        System.out.print("This is a Frit");
-    }
-
     public Fruit(int weight, String color) {
         this.weight = weight;
         this.color = color;
+    }
+
+    public void SayName() {
+        System.out.print("This is a Frit");
     }
 
     public int getWeight() {

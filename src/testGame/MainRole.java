@@ -48,13 +48,6 @@ public class MainRole {
         setCurrentmp(maxmp);
     }
 
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
-        setAttack(attack+weapon.getAttack());
-        setManaattack(manadefence+weapon.getManaattack());
-        weapon.selftexiao(this);
-    }
-
     public boolean pugongWithlianji(){
         Random random = new Random();
         if (lianji > random.nextDouble()) {
@@ -209,6 +202,13 @@ public class MainRole {
 
     public Weapon getWeapon() {
         return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+        setAttack(attack + weapon.getAttack());
+        setManaattack(manadefence + weapon.getManaattack());
+        weapon.selftexiao(this);
     }
 
     public double getBaojixiaoguo() {
