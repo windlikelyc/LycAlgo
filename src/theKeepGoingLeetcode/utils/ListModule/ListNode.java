@@ -8,19 +8,6 @@ public class ListNode {
     public ListNode next;
     public ListNode(int x) { val = x; }
 
-    public void add(int x){
-        this.next = new ListNode(x);
-    }
-    public void show(){
-        ListNode l = this;
-        do{
-            System.out.print(l.val+"->");
-            l = l.next;
-        }while (l != null);
-        System.out.print("空");
-
-    }
-
     public static ListNode create(int[] x){
 
         if(x.length == 0) return null;
@@ -31,6 +18,39 @@ public class ListNode {
             tail = tail.next;
         }
         return now;
+    }
+
+    public static ListNode reverse(ListNode l) {
+
+        if (l == null || l.next == null) {
+            return l;
+        }
+
+        ListNode pre = null;
+        ListNode cur = l;
+
+        while (cur != null) {
+            ListNode temp = cur;
+            cur = cur.next;
+            temp.next = pre;
+            pre = temp;
+        }
+
+        return pre;
+    }
+
+    public void add(int x) {
+        this.next = new ListNode(x);
+    }
+
+    public void show() {
+        ListNode l = this;
+        do {
+            System.out.print(l.val + "->");
+            l = l.next;
+        } while (l != null);
+        System.out.println("空");
+
     }
 
 }
