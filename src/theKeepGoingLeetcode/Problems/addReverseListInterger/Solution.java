@@ -20,7 +20,7 @@ public class Solution {
         while(current1 != null || current2 != null) {
 
             sum /= 10;
-
+            //开头双判，中间单判
             if(current1 != null) {
 
                 sum += current1.val;
@@ -40,7 +40,7 @@ public class Solution {
 
         }
 
-
+        //用累计和的取余方式判进位
         if(sum / 10 == 1) {
 
             currentHead.next = new ListNode(1);

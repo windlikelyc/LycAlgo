@@ -23,13 +23,25 @@ import java.util.List;
  */
 public class MySolution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+
+        //注意style
         ListNode r1 = l1;
         ListNode r2 = l2;
         //head node
+        //别起ra这种让人confused的名字
         ListNode ra = new ListNode(0);
         ListNode tail  = ra;
+        //c???
+        /**
+         * 这里没必要使用status desing patten 吧。。。
+         */
+
         boolean c = false;
+
+        //r2怎么办
         while( r1!=null){
+
+            //还是r2为空的问题。没判空就直接使用
             if(!c){
                 tail.next = new ListNode((r1.val + r2.val) % 10);
             }else {
