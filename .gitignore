@@ -3,4 +3,5 @@ out/
 myidrsa
 myidrsa.pub
 lambda.iml
-src/test*
+src/testGame/
+src/testInherit/
