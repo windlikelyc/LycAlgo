@@ -1,4 +1,4 @@
-package theKeepGoingLeetcode.utils.ListModule;
+package LycAlgo.utils.ListModule;
 
 
 /**

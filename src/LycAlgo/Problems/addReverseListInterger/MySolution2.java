@@ -1,10 +1,11 @@
-package theKeepGoingLeetcode.Problems.addReverseListInterger;
+package LycAlgo.Problems.addReverseListInterger;
 
 /**
  * Created by lyc on 2017/9/4.
  */
 
-import theKeepGoingLeetcode.utils.ListModule.ListNode;
+
+import LycAlgo.utils.ListModule.ListNode;
 
 /**
  * 之前的list都是整数逆序，如果想正序怎么办

@@ -1,7 +1,7 @@
-package theKeepGoingLeetcode.Problems.addReverseListInterger;
+package LycAlgo.Problems.addReverseListInterger;
 
-import org.junit.*;
-import theKeepGoingLeetcode.utils.ListModule.ListNode;
+import LycAlgo.utils.ListModule.ListNode;
+
 
 /**
  * Created by lyc on 2017/9/1.

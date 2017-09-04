@@ -1,4 +1,4 @@
-package theKeepGoingLeetcode.utils;
+package LycAlgo.utils;
 
 /**
  * Created by lyc on 2017/9/1.
