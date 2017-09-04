@@ -1,4 +1,4 @@
-package theKeepGoingLeetcode.utils.Tree;
+package LycAlgo.utils.Tree;
 
 /**
  * Created by lyc on 2017/8/23.
