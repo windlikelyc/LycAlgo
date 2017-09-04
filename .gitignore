@@ -3,3 +3,4 @@ out/
 myidrsa
 myidrsa.pub
 lambda.iml
+src/test*
