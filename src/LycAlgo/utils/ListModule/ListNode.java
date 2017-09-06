@@ -21,6 +21,34 @@ public class ListNode {
     }
 
     /**
+     * 找倒数第k个jiedian
+     * 待测试
+     */
+    public static ListNode findEndKth(ListNode head, int k) {
+
+        ListNode pre = null;
+        ListNode now = head;
+        while (k-- != 0) {
+            if (now != null) {
+                now = now.next;
+            } else {
+                return null;
+            }
+
+        }
+        pre = head;
+
+        while (now != null) {
+            now = now.next;
+            pre = pre.next;
+        }
+
+        return pre;
+
+    }
+
+
+    /**
      * 转置整个链表
      *
      * @param l
