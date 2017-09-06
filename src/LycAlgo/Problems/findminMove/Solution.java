@@ -1,34 +1,28 @@
 package LycAlgo.Problems.findminMove;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 
 /**
  * Created by lyc on 2017/9/5.
  */
+//自己写的有点墨基
+
+/**
+ * 这思路蛮靠谱的
+ * 先虚构一个标准，每次求两点到那个标准的距离之和
+ * 当然这个标准要一定是中位数
+ * 而且两个中位数一样
+ */
 public class Solution {
-
-    public int findminmove(int[] nums) {
+    public int minMoves2(int[] nums) {
         Arrays.sort(nums);
-        int l = nums.length;
-        if (l % 2 == 0) {
-            return Math.min(count(nums, nums[l / 2]), count(nums, nums[l / 2] - 1));
-        } else {
-            return count(nums, nums[l / 2]);
+        int i = 0, j = nums.length - 1;
+        int count = 0;
+        while (i < j) {
+            count += nums[j] - nums[i];
+            i++;
+            j--;
         }
-    }
-
-    private int count(int[] nums, int b) {
-        int as = 0;
-        for (int i = 0; i < nums.length; i++) {
-            as += Math.abs(nums[i] - b);
-        }
-        return as;
-    }
-
-    @Test
-    public void test() {
-        findminmove(new int[]{1, 123, 48});
+        return count;
     }
 }
