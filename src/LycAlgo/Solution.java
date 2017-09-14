@@ -1,7 +1,8 @@
 package LycAlgo;
 
-import LycAlgo.utils.ListModule.ListNode;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 /**
  * Created by lyc on 2017/9/5.
@@ -9,13 +10,21 @@ import org.junit.Test;
 public class Solution {
 
 
-
     @Test
     public void test() {
+        java.util.List<String> l = new ArrayList<>();
 
-        ListNode n = ListNode.create(new int[]{1, 1, 1, 2, 3, 3, 3, 4, 4, 4});
+        l.add("a");
+        l.add("ab");
+        l.add("abc");
+        l.add("d");
+        l.add("cd");
+        l.add("bcd");
+        l.add("abcd");
 
-        n.show();
+        String[] s = {
+                "a", "aa", "abc", "d", "cd", "bcd", "abcd"
+        };
 
     }
 }
