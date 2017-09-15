@@ -1,6 +1,8 @@
 package LycAlgo;
 
-import java.util.Scanner;
+import LycAlgo.utils.lArray.CircleArray;
+
+import java.util.Arrays;
 
 /**
  * Created by lyc on 2017/9/6.
@@ -12,28 +14,27 @@ import java.util.Scanner;
  * 出自牛客网，瞎写的
  */
 public class Main {
-    public static int test(String s) {
-        int l = s.length();
-        int maxl = -1;
-        int currentl = 1;
-        for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i) != s.charAt(i - 1)) {
-                currentl++;
-            } else {
-                maxl = Math.max(maxl, currentl);
-                currentl = 1;
-            }
-        }
-
-        return maxl;
-
-
-    }
+//    public static int test(String s) {
+//        int l = s.length();
+//        int maxl = -1;
+//        int currentl = 1;
+//        for (int i = 1; i < s.length(); i++) {
+//            if (s.charAt(i) != s.charAt(i - 1)) {
+//                currentl++;
+//            } else {
+//                maxl = Math.max(maxl, currentl);
+//                currentl = 1;
+//            }
+//        }
+//
+//        return maxl;
+//
+//
+//    }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String s = in.next();
-        System.out.print(test(s));
+        CircleArray c = new CircleArray(new int[]{1, 2, 3, 4});
+        System.out.print(Arrays.toString(c.getCircleArray()));
 
     }
 }
