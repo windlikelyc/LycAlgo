@@ -1,6 +1,6 @@
 package LycAlgo;
 
-import LycAlgo.utils.lArray.CircleArray;
+import LycAlgo.utils.ListModule.ListNode;
 
 import java.util.Arrays;
 
@@ -33,8 +33,16 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-        CircleArray c = new CircleArray(new int[]{1, 2, 3, 4});
-        System.out.print(Arrays.toString(c.getCircleArray()));
+        ListNode l = ListNode.create(new int[]{1, 2, 3, 4, 5, 6});
+        LycAlgo.Problems.a113.MySolution mySolution = new LycAlgo.Problems.a113.MySolution(l);
+
+        int[] statistic = new int[6];
+
+        for (int i = 0; i < 1000; i++) {
+            statistic[mySolution.getRandom() - 1]++;
+        }
+
+        System.out.println(Arrays.toString(statistic));
 
     }
 }
