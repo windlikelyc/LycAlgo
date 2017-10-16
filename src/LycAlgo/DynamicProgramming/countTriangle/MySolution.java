@@ -1,4 +1,4 @@
-package LycAlgo.Problems.countTriangle;
+package LycAlgo.DynamicProgramming.countTriangle;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 package LycAlgo;
 
-import LycAlgo.utils.ListModule.ListNode;
+import LycAlgo.Problems.ShuffleAnArray.Solution;
 
 import java.util.Arrays;
 
@@ -14,35 +14,14 @@ import java.util.Arrays;
  * 出自牛客网，瞎写的
  */
 public class Main {
-//    public static int test(String s) {
-//        int l = s.length();
-//        int maxl = -1;
-//        int currentl = 1;
-//        for (int i = 1; i < s.length(); i++) {
-//            if (s.charAt(i) != s.charAt(i - 1)) {
-//                currentl++;
-//            } else {
-//                maxl = Math.max(maxl, currentl);
-//                currentl = 1;
-//            }
-//        }
-//
-//        return maxl;
-//
-//
-//    }
+
 
     public static void main(String[] args) {
-        ListNode l = ListNode.create(new int[]{1, 2, 3, 4, 5, 6});
-        LycAlgo.Problems.a113.MySolution mySolution = new LycAlgo.Problems.a113.MySolution(l);
-
-        int[] statistic = new int[6];
-
-        for (int i = 0; i < 1000; i++) {
-            statistic[mySolution.getRandom() - 1]++;
+        Solution solution = new Solution(new int[]{1, 2, 3, 4, 5});
+        int i = 10;
+        while (i-- != 0) {
+            System.out.println(Arrays.toString(solution.shuffle()));
         }
-
-        System.out.println(Arrays.toString(statistic));
-
+        System.out.println("----------" + Arrays.toString(solution.reset()));
     }
 }
