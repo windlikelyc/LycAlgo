@@ -15,7 +15,7 @@ import java.util.Arrays;
  */
 public class Main {
 
-
+   // say hello
     public static void main(String[] args) {
         Solution solution = new Solution(new int[]{1, 2, 3, 4, 5});
         int i = 10;
