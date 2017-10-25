@@ -1,4 +1,4 @@
-package LycAlgo.Problems.a109;
+package LycAlgo.Problems.Tire;
 
 import java.util.ArrayList;
 import java.util.Arrays;

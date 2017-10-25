@@ -1,4 +1,4 @@
-package LycAlgo.Problems.a110;
+package LycAlgo.Problems.quickSet;
 
 /**
  * Created by lyc on 2017/9/14.

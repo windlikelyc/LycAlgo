@@ -1,4 +1,4 @@
-package LycAlgo.Problems.a110;
+package LycAlgo.Problems.quickSet;
 
 import java.util.ArrayList;
 import java.util.HashMap;

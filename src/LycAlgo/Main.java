@@ -1,6 +1,6 @@
 package LycAlgo;
 
-import LycAlgo.Problems.ShuffleAnArray.Solution;
+import LycAlgo.Problems.Fraction.Solution;
 
 import java.util.Arrays;
 
@@ -17,11 +17,8 @@ public class Main {
 
    // say hello
     public static void main(String[] args) {
-        Solution solution = new Solution(new int[]{1, 2, 3, 4, 5});
-        int i = 10;
-        while (i-- != 0) {
-            System.out.println(Arrays.toString(solution.shuffle()));
-        }
-        System.out.println("----------" + Arrays.toString(solution.reset()));
+        Solution solution = new Solution();
+        System.out.print(solution.fractionAddition("1/3+2/1-9/3"));
+
     }
 }

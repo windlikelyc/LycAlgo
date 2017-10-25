@@ -1,4 +1,4 @@
-package LycAlgo.Problems.a109;
+package LycAlgo.Problems.Tire;
 
 /**
  * Created by lyc on 2017/9/14.
