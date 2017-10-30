@@ -1,4 +1,4 @@
-package LycAlgo.Problems.differentWayToAddParentness;
+package LycAlgo.Divider.differentWayToAddParentness;
 
 import org.junit.Test;
 
