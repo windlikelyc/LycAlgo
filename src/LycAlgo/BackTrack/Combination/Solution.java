@@ -36,7 +36,9 @@ public class Solution {
 
             tmp.add(new Integer(candidates[i]));
             count++;
-            backtrack(candidates, target - candidates[i], i, tmp);
+            //                                            ↓如果是i+1就是不重复的集合
+            //                                            ↓如果是0就相当于暴力枚举
+            backtrack(candidates, target - candidates[i], 0, tmp);
             tmp.remove(new Integer(candidates[i]));
 
         }
