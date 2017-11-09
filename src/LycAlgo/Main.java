@@ -26,7 +26,7 @@ public class Main {
        } finally {
 
 
-           System.out.print("异常已处理，可以继续运行");
+           System.out.print("异常已处理，可以继a续运行");
 
        }
        System.out.print("程序结束，并无错误");
