@@ -72,12 +72,8 @@ public class Trie {
 
     @Test
     public void test() {
-        Trie trie = new Trie();
-        trie.insert("liuyaochen");
-        trie.insert("liuyao");
-        trie.search("liu");
-        trie.search("liuyao");
-        System.out.print(Character.getNumericValue('A'));
+
+        System.out.print(Integer.parseInt("50") == 50000);
     }
 
 

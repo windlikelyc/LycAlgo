@@ -42,9 +42,6 @@ public class LFUCache {
             map.put(key, d);
             setTail(d);
         }
-
-
-
     }
 
     private DeListNode remove(DeListNode wanted) {
