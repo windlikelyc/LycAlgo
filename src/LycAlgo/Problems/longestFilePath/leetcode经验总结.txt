@@ -1,0 +1,10 @@
+longestFilePath
+题目大意：给定字符串
+如"dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"求最长文件路径
+技巧：无
+解法剖析：
+用\n分割字符串，得到k个子字符串，使用k+1个额外空间存储当前path长度，遍历k各子字符串，定位最后出现\t的位置以求定位文件夹的层数，并用maxLen记录曾经出现过的最大长度。因为每个路径都是连续的，所以即使前面的数据被污染也可以。
+难点："\t"字符串的长度为1
+string.lastIndexOf 寻找最后出现的字符串位置
+前面的路经污染对结果不产生影响。
+

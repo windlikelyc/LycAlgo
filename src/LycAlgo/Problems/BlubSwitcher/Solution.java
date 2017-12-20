@@ -1,0 +1,12 @@
+package LycAlgo.Problems.BlubSwitcher;
+
+import org.junit.Test;
+
+public class Solution {
+    //  false false false
+    public int bulbSwitch(int n) {
+        Double d = Math.sqrt(n);
+        return d.intValue();
+    }
+
+}

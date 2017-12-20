@@ -1,43 +1,40 @@
 package LycAlgo;
 
 import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by lyc on 2017/9/6.
  */
 
 /**
- * 难道国内的算算法题已经这么简单了吗？
- * 还有这种手动IO的？
- * 出自牛客网，瞎写的
  */
 public class Main {
 
+    public static Integer nul;
    // say hello
-   public static void main(String[] args) {
-
-       try {
-
-           testConsumer();
-       } catch (Exception e) {
-
-           e.printStackTrace();
-
-       } finally {
-
-
-           System.out.print("异常已处理，可以继a续运行");
-
-       }
-       System.out.print("程序结束，并无错误");
-
+   public static void main(String[] args) throws IOException {
+       mySqrt(1);
 
 
     }
 
+    public static int mySqrt(int x) {
+
+       for(int i = 0 ; i < x ; i ++){
+           if(i*i > x){
+               return i-1;
+           }
+       }
+       System.out.println(46340*46340);
+        return 0;
+
+    }
+
     public static void testConsumer() throws IOException {
-        String tmp = "wocao";
-        throw new IOException("haha");
+        Calendar calendar = Calendar.getInstance();
+        System.out.println(calendar.getTime());
 
     }
 
