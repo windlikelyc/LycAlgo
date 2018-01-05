@@ -14,7 +14,7 @@ public class MySolution {
             for (int i = m; i >= count[0]; i--)
                 for (int j = n; j >= count[1]; j--) {
                     dp[i][j] = Math.max(1 + dp[i - count[0]][j - count[1]], dp[i][j]);
-                    martrix.show(dp);
+//                    martrix.show(dp);
                 }
 //            martrix.show(dp);
             System.out.println("这个结束了，它是" + s);
