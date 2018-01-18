@@ -6,13 +6,21 @@ public enum HumanEnum {
 
     YellowFemaleHuman("testDesignPattern.AbstractFactory.YellowFemaleHuman"),
 
+    YellowDoubleHuman("testDesignPattern.AbstractFactory.DoubleYellowHuman"),
+
     BlackMaleHuman("testDesignPattern.AbstractFactory.BlackMaleHuman"),
 
     BlackFemaleHuman("testDesignPattern.AbstractFactory.BlackFemaleHuman"),
 
+    BlackDoubleHuman("testDesignPattern.AbstractFactory.DoubleBlackHuman"),
+
     WhiteMaleHuman("testDesignPattern.AbstractFactory.WhiteMaleHuman"),
 
-    WhiteFemaleHuman("testDesignPattern.AbstractFactory.WhiteFemaleHuman");
+    WhiteFemaleHuman("testDesignPattern.AbstractFactory.WhiteFemaleHuman"),
+
+    WhiteDoubleHuman("testDesignPattern.AbstractFactory.DoubleWhiteHuman");
+
+    ;
 
     private String value = "";
 

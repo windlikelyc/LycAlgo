@@ -17,10 +17,21 @@ public class NvWa {
         maleYellowHuman.laugh();
 
         femaleYellowHuman.sex();
+
+        HumanFactory doubleHumanFactory = new DoubleHumanFactory();
+
+        Human awhitebiantai = doubleHumanFactory.createWhiteHuman();
+
+        awhitebiantai.sex();
+
+        awhitebiantai.laugh();
+
+        Human ayeelowbiantain = doubleHumanFactory.createYellowHuman();
+
+        ayeelowbiantain.sex();
+
+        ayeelowbiantain.talk();
+
     }
-
-
-
-
 
 }
