@@ -5,12 +5,34 @@ package LycAlgo.utils.Tree;
  */
 public class TreeNode {
 
+    private StringBuilder stringBuilder = new StringBuilder();
     public int val;
     public TreeNode left;
     public TreeNode right;
 
     public TreeNode(int x) {
         val = x;
+    }
+
+    @Override
+    public String toString(){
+        preOrder(this);
+        return stringBuilder.toString();
+    }
+
+    private void preOrder(TreeNode node) {
+        stringBuilder.append(node.val);
+        if(node.left != null){
+            stringBuilder.append("↙");
+            preOrder(node.left);
+        }
+
+        if(node.right != null){
+            stringBuilder.append("↘");
+            preOrder(node.right);
+        }
+
+        stringBuilder.append("↑");
     }
 
 }

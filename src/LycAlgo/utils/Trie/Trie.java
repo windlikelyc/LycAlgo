@@ -9,6 +9,12 @@ import java.util.HashMap;
  * Created by lyc on 2017/9/19.
  */
 
+/**
+ *  trie节点
+ *  包括　字符到节点　的map
+ *  单个字符
+ *  是否是最后一个节点
+ */
 class TrieNode {
 
     HashMap<Character, TrieNode> map;
@@ -16,7 +22,6 @@ class TrieNode {
     boolean last;
 
     public TrieNode(char character) {
-
         this.map = new HashMap<Character, TrieNode>();
         this.character = character;
         this.last = false;
@@ -24,6 +29,12 @@ class TrieNode {
 
 }
 
+/**
+ *  这是一颗字符树
+ *  第一次自己做的工具类用到了呢，虽然是自己调用自己
+ *  @author lyc
+ *
+ */
 public class Trie {
 
     private TrieNode root;
@@ -32,6 +43,10 @@ public class Trie {
         root = new TrieNode(' ');
     }
 
+    /**
+     * 插入一个字符串到trie 中
+     * @param word
+     */
     public void insert(String word) {
         TrieNode current = root;
         for (char c : word.toCharArray()) {
@@ -68,12 +83,6 @@ public class Trie {
         }
         return true;
 
-    }
-
-    @Test
-    public void test() {
-
-        System.out.print(Integer.parseInt("50") == 50000);
     }
 
 
