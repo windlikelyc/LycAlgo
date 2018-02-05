@@ -1,6 +1,5 @@
 package LycAlgo.Problems.subset;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -44,8 +43,4 @@ public class Solution2 {
 
     }
 
-    @Test
-    public void test(){
-        System.out.println(subsetsWithDup(new int[]{1,2,2,2}));
-    }
 }

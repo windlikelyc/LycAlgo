@@ -1,6 +1,5 @@
 package LycAlgo.Problems.bitwiseAnd;
 
-import org.junit.Test;
 
 public class Solution {
 

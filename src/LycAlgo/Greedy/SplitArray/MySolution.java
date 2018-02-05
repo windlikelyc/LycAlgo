@@ -1,6 +1,5 @@
 package LycAlgo.Greedy.SplitArray;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/25.
@@ -21,9 +20,5 @@ public class MySolution {
 
     }
 
-    @Test
-    public void test() {
-        isPossible(new int[]{1, 3, 3, 4, 5});
-    }
 
 }

@@ -4,7 +4,6 @@ package LycAlgo.Problems.Tire;
  * Created by lyc on 2017/9/14.
  */
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,18 +52,6 @@ public class MySolution {
         return string;
     }
 
-    @Test
-    public void test() {
-
-        List l = new ArrayList();
-        l.add("cat");
-        l.add("rat");
-        l.add("bat");
-
-        replaceWords(l, "the cattle was rattled by the battery");
-
-
-    }
 
 
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Hard.RemoveBoxes;
 
-import org.junit.Test;
 
 public class Solution {
 
@@ -31,8 +30,5 @@ public class Solution {
         return d[l][r][k];
     }
 
-    @Test
-    public void test(){
-        removeBoxes(new int[]{1,2,1});
-    }
+
 }

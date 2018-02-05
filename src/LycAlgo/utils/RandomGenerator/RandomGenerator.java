@@ -1,6 +1,5 @@
 package LycAlgo.utils.RandomGenerator;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -26,9 +25,5 @@ public class RandomGenerator {
     }
 
 
-    @Test
-    public void test() {
 
-        System.out.print(gerate(10));
-    }
 }

@@ -51,12 +51,5 @@ public class Solution {
 
     }
 
-    @org.junit.Test
-    public void test(){
-        ListNode l1 = ListNode.create(new int[]{9,1});
-        ListNode l2 = ListNode.create(new int[]{9,1 });
-        ListNode l3 = addTwoNumbers(l1, l2);
-        l3.show();
 
-    }
 }

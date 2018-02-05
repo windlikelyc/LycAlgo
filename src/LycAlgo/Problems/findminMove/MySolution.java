@@ -1,6 +1,5 @@
 package LycAlgo.Problems.findminMove;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -27,9 +26,6 @@ public class MySolution {
         return as;
     }
 
-    @Test
-    public void test() {
-        findminmove(new int[]{1, 123, 48});
-    }
+
 
 }

@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.ShoppingOffer;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,26 +46,6 @@ public class MySolution {
     }
 
 
-    @Test
-    public void test() {
-        List<Integer> price = new ArrayList<>();
-        price.add(2);
-        price.add(5);
-        List<List<Integer>> special = new ArrayList<>();
-        List<Integer> special1 = new ArrayList<>();
-        List<Integer> special2 = new ArrayList<>();
-        special1.add(3);
-        special1.add(0);
-        special1.add(5);
-        special2.add(1);
-        special2.add(2);
-        special2.add(10);
-        special.add(special1);
-        special.add(special2);
-        List<Integer> needs = new ArrayList<>();
-        needs.add(3);
-        needs.add(2);
-        shoppingOffers(price, special, needs);
-    }
+
 
 }

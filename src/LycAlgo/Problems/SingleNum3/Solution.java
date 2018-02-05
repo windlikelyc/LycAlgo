@@ -1,6 +1,5 @@
 package LycAlgo.Problems.SingleNum3;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,8 +25,4 @@ public class Solution {
         return ans;
     }
 
-    @Test
-    public void test(){
-        singleNumber(new int[]{1, 1, 2, 2, 3, 5});
-    }
 }

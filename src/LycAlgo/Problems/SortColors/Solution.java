@@ -1,6 +1,5 @@
 package LycAlgo.Problems.SortColors;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/11/17.
@@ -34,9 +33,5 @@ public class Solution {
         nums[s] = tmp;
     }
 
-    @Test
-    public void test() {
-        sortColors(new int[]{1,2,0});
-    }
 }
 

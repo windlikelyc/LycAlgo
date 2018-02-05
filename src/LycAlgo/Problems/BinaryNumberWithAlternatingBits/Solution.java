@@ -1,6 +1,5 @@
 package LycAlgo.Problems.BinaryNumberWithAlternatingBits;
 
-import org.junit.Test;
 
 public class Solution {
     public boolean hasAlternatingBits(int n) {
@@ -16,8 +15,5 @@ public class Solution {
         return true;
     }
 
-    @Test
-    public void tes(){
-        System.out.println(hasAlternatingBits(10));
-    }
+
 }

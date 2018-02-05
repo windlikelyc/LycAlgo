@@ -1,6 +1,5 @@
 package LycAlgo.BackTrack.Combination;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,12 +41,6 @@ public class Solution {
             tmp.remove(new Integer(candidates[i]));
 
         }
-
-    }
-
-    @Test
-    public void test() {
-        System.out.print(combinationSum(new int[]{1, 2, 3, 4, 5}, 5) + "count 是" + count);
 
     }
 

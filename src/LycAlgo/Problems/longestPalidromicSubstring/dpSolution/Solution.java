@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestPalidromicSubstring.dpSolution;
 
-import org.junit.Test;
 
 public class Solution {
     public String longestPalindrome(String s) {
@@ -27,8 +26,4 @@ public class Solution {
         return res;
     }
 
-    @Test
-    public void test(){
-        longestPalindrome("kbddbk");
-    }
 }

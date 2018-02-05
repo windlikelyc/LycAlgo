@@ -1,6 +1,5 @@
 package LycAlgo.Problems.deletStringForSame;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/12.
@@ -41,12 +40,6 @@ public class MySolution {
 
     //详见strDP.png
 
-    @Test
-    public void test() {
-        String a = "cat";
-        String b = "ate";
-        System.out.print(minDistance(a, b));
-    }
 
     /**
      *  典型的动态规划问题，基本思想是用On2双循环便利两个字符串

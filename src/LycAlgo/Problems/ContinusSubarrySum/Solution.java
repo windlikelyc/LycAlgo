@@ -1,7 +1,5 @@
 package LycAlgo.Problems.ContinusSubarrySum;
 
-import org.junit.Test;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -34,9 +32,5 @@ public class Solution {
     return false;
   }
 
-  @Test
-  public void a(){
-    System.out.println(checkSubarraySum(new int[]{23, 2, 6, 4, 7}, 6));
-  }
 
 }

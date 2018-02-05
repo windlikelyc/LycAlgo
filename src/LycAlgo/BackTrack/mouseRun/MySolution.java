@@ -1,6 +1,5 @@
 package LycAlgo.BackTrack.mouseRun;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/13.
@@ -42,8 +41,4 @@ public class MySolution {
 
     }
 
-    @Test
-    public void test() {
-        mouserun(0, 0);
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.regularExpressionMatch;
 
-import org.junit.Test;
 
 public class Coins2 {
     public int coins2(int[] arr , int aim){
@@ -28,10 +27,5 @@ public class Coins2 {
         }
         map[index][aim] = res == 0 ? -1 : res;
         return res;
-    }
-
-    @Test
-    public void teset(){
-        coins2(new int[]{5, 10, 25, 1}, 1000);
     }
 }

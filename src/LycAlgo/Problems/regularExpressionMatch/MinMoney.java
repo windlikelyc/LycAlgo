@@ -1,6 +1,5 @@
 package LycAlgo.Problems.regularExpressionMatch;
 
-import org.junit.Test;
 
 public class MinMoney {
 
@@ -34,8 +33,4 @@ public class MinMoney {
     }
 
 
-    @Test
-    public void  test(){
-        minCoins(new int[]{1, 5, 10, 50}, 60);
-    }
 }

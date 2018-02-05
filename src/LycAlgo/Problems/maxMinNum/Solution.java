@@ -1,6 +1,5 @@
 package LycAlgo.Problems.maxMinNum;
 
-import org.junit.Test;
 
 import java.util.LinkedList;
 
@@ -43,8 +42,4 @@ public class Solution {
         return res;
     }
 
-    @Test
-    public void test(){
-        getNum(new int[]{2,1,3,5,6}, 2);
-    }
 }

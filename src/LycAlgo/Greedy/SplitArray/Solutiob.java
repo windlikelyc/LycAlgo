@@ -1,6 +1,5 @@
 package LycAlgo.Greedy.SplitArray;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,9 +28,5 @@ public class Solutiob {
     }
 
 
-    @Test
-    public void test() {
-        isPossible(new int[]{1, 2, 3, 3, 4, 5, 6});
-    }
 
 }

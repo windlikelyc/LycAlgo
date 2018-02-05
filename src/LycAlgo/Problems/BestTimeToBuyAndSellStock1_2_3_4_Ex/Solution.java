@@ -1,6 +1,5 @@
 package LycAlgo.Problems.BestTimeToBuyAndSellStock1_2_3_4_Ex;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -63,8 +62,4 @@ public class Solution {
         return max;
     }
 
-    @Test
-    public void test() {
-        System.out.print(maxProfixWithCoolDown(new int[]{1, 2, 1, 0, 2}));
-    }
 }

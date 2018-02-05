@@ -1,6 +1,5 @@
 package LycAlgo.Problems.Lexicograph;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +23,5 @@ public class Solution {
         return list;
     }
 
-    @Test
-    public void test(){
-        System.out.println(lexicalOrder(21));
-    }
 
 }

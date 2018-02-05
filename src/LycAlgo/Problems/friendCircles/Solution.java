@@ -1,6 +1,5 @@
 package LycAlgo.Problems.friendCircles;
 
-import org.junit.Test;
 
 // 朋友圈思想， 初始每个用户都没扫过，扫完1后1的所有朋友置位1，同时 1朋友的朋友置位1，1朋友的朋友的朋友也置为1 ，最后看把谁剩下
 public class Solution {
@@ -25,8 +24,4 @@ public class Solution {
         return count;
     }
 
-    @Test
-    public void test(){
-        findCircleNum(new int[][]{{1, 1, 0, 0}, {1, 1, 0, 1}, {0, 0, 1, 0}, {0, 1, 0, 1}});
-    }
 }

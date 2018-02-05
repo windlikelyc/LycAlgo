@@ -1,6 +1,5 @@
 package LycAlgo.Problems.combinationSum;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,11 +28,6 @@ public class Solution {
         }
     }
 
-    @Test
-    public void test() {
-
-        System.out.print(combinationSum3(6, 30));
-    }
 
     /**
      * 回溯法的一般套路：

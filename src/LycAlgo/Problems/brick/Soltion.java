@@ -1,6 +1,5 @@
 package LycAlgo.Problems.brick;
 
-import org.junit.Test;
 
 import java.sql.Array;
 import java.util.*;

@@ -2,7 +2,6 @@ package LycAlgo.Problems.judgeBalance;
 
 import LycAlgo.utils.Tree.Tree;
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 public class Solution {
     boolean isAllTreeBalance = true;
@@ -31,12 +30,5 @@ public class Solution {
 
     }
 
-    @Test
-    public void test(){
-        TreeNode root = new TreeNode(1);
-        root.right = new TreeNode(2);
-        root.right.right = new TreeNode(3);
 
-        System.out.println(heigth(root));
-    }
 }

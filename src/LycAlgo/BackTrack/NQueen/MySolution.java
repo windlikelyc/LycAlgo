@@ -1,6 +1,5 @@
 package LycAlgo.BackTrack.NQueen;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/14.
@@ -103,8 +102,5 @@ public class MySolution {
         return true;
     }
 
-    @Test
-    public void test() {
-    }
 
 }

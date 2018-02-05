@@ -1,6 +1,5 @@
 package LycAlgo.Problems.ContainerWater;
 
-import org.junit.Test;
 
 public class Solution {
     public int maxArea2(int[] height) {
@@ -80,8 +79,4 @@ public class Solution {
 
     }
 
-    @Test
-    public void test(){
-        maxArea(new int[]{2,3,10,5,7,8,9});
-    }
 }

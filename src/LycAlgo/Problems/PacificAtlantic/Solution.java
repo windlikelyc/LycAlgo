@@ -1,6 +1,5 @@
 package LycAlgo.Problems.PacificAtlantic;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,15 +62,6 @@ public class Solution {
     return false;
   }
 
-  @Test
-  public void tset(){
-    int[][] matr = new int[][]{{5,5,5,5,5},{5,2,1,1,8},{5,3,4,5,5},{5,5,5,5,5},
-  };
 
-    pacificAtlantic(matr);
-
-    LycAlgo.utils.martrix.martrix.show(lock);
-    LycAlgo.utils.martrix.martrix.show(matr);
-  }
 
 }

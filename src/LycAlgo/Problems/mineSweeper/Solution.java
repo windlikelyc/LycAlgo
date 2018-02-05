@@ -1,6 +1,5 @@
 package LycAlgo.Problems.mineSweeper;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -51,17 +50,6 @@ public class Solution {
     return board;
   }
 
-  @Test
-  public void test(){
-
-    char[][] b = new char[][]{{'E', 'E', 'E', 'E', 'E'},
-            {'E', 'E', 'M', 'E', 'E'},
-            {'E', 'E', 'E', 'E', 'E'},
-            {'E', 'E', 'E', 'E', 'E'},
-    };
-
-    LycAlgo.utils.martrix.martrix.showchar(updateBoard(b,new int[]{3,0}));
-  }
 
 
 }

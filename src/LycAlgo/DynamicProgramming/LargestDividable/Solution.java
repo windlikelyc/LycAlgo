@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.LargestDividable;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -55,9 +54,6 @@ public class Solution {
 
     }
 
-    @Test
-    public void test() {
-        largestDivisibleSubset(new int[]{1, 2, 3, 4, 5, 6, 7});
-    }
+
 
 }

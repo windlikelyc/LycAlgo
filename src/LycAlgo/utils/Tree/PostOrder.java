@@ -1,6 +1,5 @@
 package LycAlgo.utils.Tree;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,14 +71,5 @@ public class PostOrder {
         return ans;
     }
 
-    @Test
-    public void test(){
-        TreeNode t = new TreeNode(3);
-        t.left = new TreeNode(1);
-        t.right = new TreeNode(5);
-        t.right.left = new TreeNode(2);
-        t.right.right = new TreeNode(7);
-        System.out.print(postorderTraversal(t));
 
-    }
 }

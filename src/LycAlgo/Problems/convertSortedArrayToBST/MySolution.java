@@ -2,7 +2,6 @@ package LycAlgo.Problems.convertSortedArrayToBST;
 // Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/5.
@@ -40,10 +39,5 @@ public class MySolution {
         return t;
     }
 
-    @Test
-    public void test() {
-        int nums[] = new int[]{1, 2, 3, 4, 5, 6};
-        sortedArrayToBST(nums);
 
-    }
 }

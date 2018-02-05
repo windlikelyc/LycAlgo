@@ -1,6 +1,5 @@
 package LycAlgo.Problems.the132;
 
-import org.junit.Test;
 
 import java.util.Stack;
 
@@ -23,8 +22,4 @@ public class Solution {
         return false;
     }
 
-    @Test
-    public void test(){
-        find132pattern(new int[]{1, 1,7,6,5,4,3, 2});
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestFilePath;
 
-import org.junit.Test;
 
 public class Solution
 {
@@ -15,8 +14,5 @@ public class Solution
         return maxLen;
     }
 
-    @Test
-    public void test(){
-        lengthLongestPath("dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext)");
-    }
+
 }

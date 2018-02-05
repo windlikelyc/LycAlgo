@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.countTriangle;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -35,9 +34,5 @@ public class Solution {
         return ans;
     }
 
-    @Test
-    public void test() {
-        int[] nums = new int[]{3, 4, 6, 7};
-        triangleCount(nums);
-    }
+
 }

@@ -1,6 +1,5 @@
 package LycAlgo.maxAreaOfIsland;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/11/20.

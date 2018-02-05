@@ -2,7 +2,6 @@ package LycAlgo.Problems.AverageLevelTree;
 
 import LycAlgo.utils.Tree.Tree;
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -46,17 +45,6 @@ public class Solution {
             ans.add((double) sum / nowtime);
         }
         return ans;
-    }
-
-    @Test
-    public void test(){
-        TreeNode t = new TreeNode(2147483647);
-         t.left = new TreeNode(2147483647);
-         t.right = new TreeNode(2147483647);
-
-        averageOfLevels(t);
-
-
     }
 
 

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.searchForRange;
 
-import org.junit.Test;
 
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
@@ -42,9 +41,5 @@ public class Solution {
         }
         ans[1] = lo-1;
         return ans;
-    }
-    @Test
-    public void test(){
-        searchRange(new int[]{5},5);
     }
 }

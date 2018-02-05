@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.PredictWinner;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/27.
@@ -44,10 +43,6 @@ public class MySolution {
 
     }
 
-    @Test
-    public void test() {
-        preidctWinnner(new int[]{1, 5, 233, 7});
-    }
 
     //明显的贪心法，太经典啦
 

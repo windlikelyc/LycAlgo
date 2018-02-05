@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestSubstring.mask;
 
-import org.junit.Test;
 
 public class Solution {
     public int longestSubstring(String s, int k) {
@@ -22,8 +21,5 @@ public class Solution {
         }
         return res;
     }
-    @Test
-    public void test(){
-        longestSubstring("cdababbc", 2);
-    }
+
 }

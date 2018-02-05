@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.integerbreak;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -26,8 +25,4 @@ public class Solution {
     }
 
 
-    @Test
-    public void test(){
-        integerBreak(10);
-    }
 }

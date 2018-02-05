@@ -1,6 +1,5 @@
 package LycAlgo.Problems.a112;
 
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Stack;
@@ -22,9 +21,5 @@ public class Solution {
         return next;
     }
 
-    @Test
-    public void test() {
-        int[] nums = new int[]{50, 40, 30, 20, 10};
-        nextGreaterElements(nums);
-    }
+
 }

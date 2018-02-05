@@ -1,6 +1,5 @@
 package LycAlgo.Problems.WordSearch;
 
-import org.junit.Test;
 
 public class Solution {
 
@@ -50,10 +49,4 @@ public class Solution {
 
     }
 
-    @Test
-    public void test(){
-        char[][] board = new char[][]{{'a','b'}};
-        String word = "ba";
-        System.out.println(exist(board, word));
-    }
 }

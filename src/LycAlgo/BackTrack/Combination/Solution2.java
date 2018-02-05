@@ -1,6 +1,5 @@
 package LycAlgo.BackTrack.Combination;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,10 +30,5 @@ public class Solution2 {
             l.remove(Integer.valueOf(nums[i]));
         }
     }
-    @Test
-    public void test() {
-        System.out.print(combinationSum3(3, 7));
-        return;
 
-    }
 }

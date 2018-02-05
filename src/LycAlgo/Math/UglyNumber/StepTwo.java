@@ -1,7 +1,6 @@
 package LycAlgo.Math.UglyNumber;
 
 import com.sun.xml.internal.ws.addressing.WsaTubeHelperImpl;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -59,10 +58,5 @@ public class StepTwo {
         return ans.get(n-1);
     }
 
-    @Test
-    public void test(){
 
-        nthSuperUglyNumber(10, new int[]{7, 11, 13, 19});
-
-    }
 }

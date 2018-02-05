@@ -1,6 +1,5 @@
 package LycAlgo.Problems.Conbination;
 
-import org.junit.Test;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -33,8 +32,4 @@ public class Solution {
     }
   }
 
-  @Test
-  public void test(){
-    System.out.println(combine(4, 4));
-  }
 }

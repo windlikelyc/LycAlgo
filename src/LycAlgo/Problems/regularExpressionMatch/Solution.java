@@ -1,6 +1,5 @@
 package LycAlgo.Problems.regularExpressionMatch;
 
-import org.junit.Test;
 
 public class Solution {
 
@@ -17,9 +16,5 @@ public class Solution {
          }
      }
 
-     // 'abab'  'ab*'
-    @Test
-    public void test(){
-        isMatch("abab", "ab*");
-    }
+
 }

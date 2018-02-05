@@ -1,6 +1,5 @@
 package LycAlgo.Problems.regularExpressionMatch;
 
-import org.junit.Test;
 
 public class SolutionTopDownDP {
     enum Result {
@@ -38,8 +37,4 @@ public class SolutionTopDownDP {
     }
 
     // 'abab'  'ab*'
-    @Test
-    public void test(){
-        isMatch("abab", "ab*");
-    }
 }

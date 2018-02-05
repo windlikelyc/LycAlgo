@@ -1,7 +1,6 @@
 package LycAlgo.DynamicProgramming.OnesAndZeros;
 
 import LycAlgo.utils.martrix.martrix;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/10/11.
@@ -29,9 +28,4 @@ public class MySolution {
         return res;
     }
 
-    @Test
-    public void test() {
-        String[] strs = {"100001110001", "0001", "111001", "1", "0"};
-        findMaxForm(strs, 5, 3);
-    }
 }

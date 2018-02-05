@@ -1,7 +1,6 @@
 package LycAlgo.Problems.InsertSort;
 
 import LycAlgo.utils.ListModule.ListNode;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/4.
@@ -34,9 +33,5 @@ public class MySolution {
 
     }
 
-    @Test
-    public void test() {
-        ListNode l = ListNode.create(new int[]{2, 1});
-        insertionSortList(l);
-    }
+
 }

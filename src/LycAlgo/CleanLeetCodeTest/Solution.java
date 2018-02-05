@@ -1,7 +1,6 @@
 package LycAlgo.CleanLeetCodeTest;
 
 import LycAlgo.utils.lString.lString;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/15.
@@ -56,10 +55,5 @@ public class Solution {
     }
 
 
-    @Test
-    public void test() {
-
-        System.out.print(lString.reverse("wocao"));
-    }
 
 }

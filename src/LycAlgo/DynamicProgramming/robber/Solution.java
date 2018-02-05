@@ -4,7 +4,6 @@ package LycAlgo.DynamicProgramming.robber;
  * Created by lyc on 2017/11/14.
  */
 
-import org.junit.Test;
 
 /**          1000- 1 - 1- 100 - 7
  *           |                 |
@@ -55,8 +54,4 @@ public class Solution {
 
     }
 
-    @Test
-    public void test(){
-        rob(new int[]{1,2,1,0});
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Bitmap;
 
-import org.junit.Test;
 
 public class Solution {
     int singleNumber(int[] nums) {
@@ -15,8 +14,4 @@ public class Solution {
         return res;
     }
 
-    @Test
-    public void test(){
-        singleNumber(new int[]{1, 1, 1, 5, 5, 5, 6});
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.knightProbability;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,8 +42,5 @@ public class Solution {
         }
     }
 
-   @Test
-    public void test(){
-       System.out.print(knightProbability(8, 30, 6, 4));
-   }
+
 }

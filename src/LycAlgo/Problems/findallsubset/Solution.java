@@ -1,6 +1,5 @@
 package LycAlgo.Problems.findallsubset;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,11 +26,6 @@ public class Solution {
         }
     }
 
-    @Test
-    public void test() {
-        subsets(new int[]{1, 2, 3, 4, 5});
-
-    }
 
 
 }

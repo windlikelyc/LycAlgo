@@ -1,7 +1,5 @@
 package LycAlgo.Problems.Matrix01;
 
-import com.sleepycat.je.tree.IN;
-import org.junit.Test;
 
 import java.nio.file.Watchable;
 import java.util.Arrays;
@@ -84,9 +82,5 @@ public class Solution {
     System.out.println("drop done");
   }
 
-  @Test
-  public void test(){
-//    updateMatrix(new int[][]{{1,1,1},{1,0,1},{1,1,1},});
-    updateMatrix(new int[][]{{0,1,1,1},{1,1,1,1},{1,1,0,1},{1,1,1,1}});
-  }
+
 }

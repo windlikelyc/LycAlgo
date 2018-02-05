@@ -1,7 +1,5 @@
 package LycAlgo.Problems.dividEqual;
 
-import com.sleepycat.je.tree.IN;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,8 +54,4 @@ public class Solution {
 
     }
 
-    @Test
-    public void tset(){
-        canPartition(new int[]{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,100});
-    }
 }

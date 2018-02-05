@@ -1,7 +1,5 @@
 package LycAlgo.Problems.maxWindow;
 
-import com.sleepycat.je.tree.IN;
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -62,14 +60,5 @@ public class Solution {
 
     }
 
-    @Test
-    public void test2(){
-        System.out.println(findRightMax(new int[]{4,3,2,1,7,6,5}));
-    }
 
-    @Test
-    public void test(){
-        getMaxWindow(new int[]{4, 3, 5, 4, 3, 3, 6, 7}, 3);
-
-    }
 }

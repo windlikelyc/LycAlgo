@@ -1,6 +1,5 @@
 package LycAlgo.Problems.ContinuesArray;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,9 +28,6 @@ public class Solution {
             return max;
         }
 
-        @Test
-        public void test(){
-            findMaxLength(new int[]{0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1});
-        }
+
 
 }

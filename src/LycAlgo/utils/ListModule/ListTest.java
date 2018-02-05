@@ -1,7 +1,6 @@
 package LycAlgo.utils.ListModule;
 
 
-import org.junit.Test;
 
 import java.util.*;
 
@@ -53,11 +52,6 @@ public class ListTest {
         return (int) l.get(k);
     }
 
-    @Test
-    public void test() {
-        int[][] a = new int[][]{{1, 2}, {3, 4}};
-        System.out.print(kthSmallest(a, 1));
-    }
 
 
 }

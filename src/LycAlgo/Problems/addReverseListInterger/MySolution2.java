@@ -35,15 +35,4 @@ public class MySolution2 {
 
     }
 
-
-    @org.junit.Test
-    public void test() {
-        ListNode l1 = ListNode.create(new int[]{5, 0, 0});
-
-        ListNode l2 = ListNode.create(new int[]{5, 0, 0});
-        addTwoNumbers2(l1, l2);
-
-    }
-
-
 }

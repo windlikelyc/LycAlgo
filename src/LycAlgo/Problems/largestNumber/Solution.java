@@ -1,7 +1,5 @@
 package LycAlgo.Problems.largestNumber;
 
-import com.mysql.jdbc.jdbc2.optional.SuspendableXAConnection;
-import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -97,8 +95,5 @@ public class Solution {
     }
 
 
-    @Test
-    public void test(){
-        largestNumber(new int[]{1440,7548,4240,6616,733,4712,883,8,9576});
-    }
+
 }

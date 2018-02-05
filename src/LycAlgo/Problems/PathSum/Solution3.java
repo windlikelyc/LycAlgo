@@ -7,7 +7,6 @@ package LycAlgo.Problems.PathSum;
 import LycAlgo.utils.Tree.StandardTree;
 import LycAlgo.utils.Tree.Tree;
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,11 +61,4 @@ public class Solution3 {
         helper(nowNode.right,thispath);
     }
 
-    @Test
-    public void test(){
-        StandardTree stt = new StandardTree();
-        TreeNode tree = stt.getTree();
-        System.out.print(pathSum(tree, 8));;
-
-    }
 }

@@ -1,7 +1,6 @@
 package LycAlgo.Problems.findLargestValueInEachTreeRow;
 
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +35,4 @@ public class Solution {
         helper(root.right, res, d + 1);
     }
 
-    @Test
-    public void test() {
-    }
 }

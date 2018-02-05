@@ -1,7 +1,6 @@
 package LycAlgo.Problems.OldEvenLinkList;
 
 import LycAlgo.utils.ListModule.ListNode;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/6.
@@ -46,10 +45,4 @@ public class MySolution {
 
     }
 
-    @Test
-    public void test() {
-
-        ListNode l = ListNode.create(new int[]{1, 2, 3, 4, 5});
-        oddEvenList(l);
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestSubstring;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -37,8 +36,4 @@ public class Solution {
         return maxlength;
     }
 
-    @Test
-    public void test(){
-        longestSubstring("aaabb", 3);
-    }
 }

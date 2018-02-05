@@ -2,7 +2,6 @@ package LycAlgo.Problems.findLargestValueInEachTreeRow;
 
 import LycAlgo.utils.Tree.Tree;
 import LycAlgo.utils.Tree.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -66,10 +65,4 @@ public class MySolution {
     }
 
 
-    @Test
-    public void test() {
-        Tree tree = new Tree(new int[]{1, 2, 3, 4, 5, 6});
-
-        largestValues(tree.root);
-    }
 }

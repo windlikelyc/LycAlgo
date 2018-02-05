@@ -58,20 +58,9 @@ public class MySolution2_1 {
             virhead.next.next = vi;
         }
 
-
         return virhead.next;
 
     }
-
-    @org.junit.Test
-    public void test() {
-        ListNode l1 = ListNode.create(new int[]{7, 2, 4, 3});
-
-        ListNode l2 = ListNode.create(new int[]{5, 6, 4});
-        addTwoNumbers(l1, l2);
-
-    }
-//没想到随便想的蠢方法竟然ac了，综合使用了头插法，尾插法，倒序查找法，实际上当你想逆序的时候想到stack就可以了嘛
 
 
 }

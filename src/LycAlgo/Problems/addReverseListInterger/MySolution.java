@@ -1,7 +1,6 @@
 package LycAlgo.Problems.addReverseListInterger;
 
 import LycAlgo.utils.ListModule.ListNode;
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/1.
@@ -58,13 +57,5 @@ public class MySolution {
             r2 = r2.next;
         }
         return ra.next;
-    }
-    @Test
-    public void test(){
-        ListNode l1 = ListNode.create(new int[]{0,0,5});
-        ListNode l2 = ListNode.create(new int[]{0,2});
-        ListNode l3 = addTwoNumbers(l1, l2);
-        l3.show();
-
     }
 }

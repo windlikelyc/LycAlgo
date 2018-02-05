@@ -1,7 +1,5 @@
 package LycAlgo.Problems.combinationSum;
 
-import com.sleepycat.je.tree.IN;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,8 +32,4 @@ public class Solution2 {
 
     }
 
-    @Test
-    public void test(){
-        System.out.println(combinationSum(new int[]{2, 3, 6, 7}, 7));
-    }
 }

@@ -1,7 +1,5 @@
 package LycAlgo.longestSubstringWithoutRepeat;
 
-import org.apache.regexp.RE;
-import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -30,8 +28,4 @@ public class Solution {
         return max;
     }
 
-    @Test
-    public void test(){
-        System.out.println(lengthOfLongestSubstring("abcabcbb"));;
-    }
 }

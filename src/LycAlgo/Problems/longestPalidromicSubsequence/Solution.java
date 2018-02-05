@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestPalidromicSubsequence;
 
-import org.junit.Test;
 
 public class Solution {
   public int longestPalindromeSubseq(String s) {
@@ -26,8 +25,4 @@ public class Solution {
     return dp[0][s.length() - 1];
   }
 
-  @Test
-  public void test(){
-    System.out.println(longestPalindromeSubseq("cbbd"));;
-  }
 }

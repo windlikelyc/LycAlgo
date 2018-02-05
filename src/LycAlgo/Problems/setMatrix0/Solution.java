@@ -1,6 +1,5 @@
 package LycAlgo.Problems.setMatrix0;
 
-import org.junit.Test;
 
 public class Solution {
     public void setZeroes(int[][] matrix) {
@@ -47,8 +46,5 @@ public class Solution {
         }
     }
 
-    @Test
-    public void test(){
-        setZeroes(new int[][]{{0,1}});
-    }
+
 }

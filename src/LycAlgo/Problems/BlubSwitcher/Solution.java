@@ -1,6 +1,5 @@
 package LycAlgo.Problems.BlubSwitcher;
 
-import org.junit.Test;
 
 public class Solution {
     //  false false false

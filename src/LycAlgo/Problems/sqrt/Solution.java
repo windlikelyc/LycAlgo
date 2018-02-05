@@ -1,6 +1,5 @@
 package LycAlgo.Problems.sqrt;
 
-import org.junit.Test;
 
 public class Solution {
     public int sqrt(int x) {
@@ -25,8 +24,4 @@ public class Solution {
         return 0;
     }
 
-    @Test
-    public void test(){
-        sqrt(10000001);
-    }
 }

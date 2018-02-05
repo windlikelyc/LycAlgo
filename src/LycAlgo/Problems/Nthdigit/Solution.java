@@ -1,6 +1,5 @@
 package LycAlgo.Problems.Nthdigit;
 
-import org.junit.Test;
 
 public class Solution {
     public int findNthDigit(int n) {
@@ -20,9 +19,5 @@ public class Solution {
         return Character.getNumericValue(s.charAt((n - 1) % len));
     }
 
-    @Test
-    public void test(){
-        findNthDigit(181);
 
-    }
 }

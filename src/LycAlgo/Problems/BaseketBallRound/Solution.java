@@ -1,6 +1,5 @@
 package LycAlgo.Problems.BaseketBallRound;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,9 +38,4 @@ public class Solution {
 
     }
 
-    @Test
-    public void test(){
-        System.out.print(calPoints(new String[]{"5","2","C","D","+"}));;;;
-
-    }
 }

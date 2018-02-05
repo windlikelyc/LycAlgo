@@ -1,6 +1,5 @@
 package LycAlgo.Problems.TheStackQueue;
 
-import org.junit.Test;
 
 import java.util.Stack;
 
@@ -61,16 +60,4 @@ public class TheStackQueue {
         return stack_mayor.isEmpty();
     }
 
-    @Test
-    public void test() {
-        push(1);
-        push(2);
-        push(3);
-        System.out.print(peek());
-        pop();
-        System.out.print(peek());
-        push(4);
-        System.out.print(peek());
-
-    }
 }

@@ -1,6 +1,5 @@
 package LycAlgo.Problems.Permunation2;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,8 +43,4 @@ public class Solution {
         }
     }
 
-    @Test
-    public void test(){
-        System.out.print(permuteUnique(new int[]{1,2,3}));
-    }
 }

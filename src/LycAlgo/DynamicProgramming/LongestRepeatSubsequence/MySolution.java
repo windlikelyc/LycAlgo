@@ -1,6 +1,5 @@
 package LycAlgo.DynamicProgramming.LongestRepeatSubsequence;
 
-import org.junit.Test;
 
 /**
  * Created by lyc on 2017/9/21.
@@ -24,9 +23,5 @@ public class MySolution {
         return dp[0][s.length() - 1];
     }
 
-    @Test
-    public void test() {
-        System.out.println(longestPalindromeSubseq("abaa"));
 
-    }
 }

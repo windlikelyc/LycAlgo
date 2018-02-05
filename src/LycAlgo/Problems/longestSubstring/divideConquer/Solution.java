@@ -1,6 +1,5 @@
 package LycAlgo.Problems.longestSubstring.divideConquer;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 
@@ -34,10 +33,6 @@ public class Solution {
             maxlen = Math.max(maxlen, longestSubstring(str,k));
         }
         return maxlen;
-    }
-    @Test
-    public void test(){
-        longestSubstring("abcdefg", 2);
     }
 
 

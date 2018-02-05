@@ -1,7 +1,5 @@
 package LycAlgo.Problems.dividEqual;
 
-import org.junit.Test;
-
 public class RightSolution {
     public boolean canPartition(int[] nums) {
         int sum=0;
@@ -32,8 +30,4 @@ public class RightSolution {
 
     }
 
-    @Test
-    public void test() {
-        canPartition(new int[]{5,11,5,1});
-    }
 }

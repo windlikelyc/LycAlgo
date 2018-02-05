@@ -1,6 +1,5 @@
 package LycAlgo.Problems.a112;
 
-import org.junit.Test;
 
 import java.util.Stack;
 
@@ -37,10 +36,5 @@ public class MySolution {
         return nums;
     }
 
-    @Test
-    public void test() {
-        int[] nums = new int[]{5, 4, 3, 2, 1};
-        nextGreaterElements(nums);
-    }
 
 }

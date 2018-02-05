@@ -1,6 +1,5 @@
 package LycAlgo.Divider.differentWayToAddParentness;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,8 +35,4 @@ public class Solution {
     }
 
 
-    @Test
-    public void test(){
-        diffWaysToCompute("1+2*3+4",0);
-    }
 }
