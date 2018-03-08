@@ -1,13 +1,14 @@
 package LycAlgo;
 
+import LycAlgo.utils.ListModule.List;
+import LycAlgo.utils.ListModule.ListNode;
 import LycAlgo.utils.Trie.Trie;
+import com.sleepycat.je.tree.IN;
 import org.apache.xpath.SourceTree;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.MissingResourceException;
+import java.util.*;
 
 /**
  * Created by lyc on 2017/9/6.
@@ -17,25 +18,21 @@ import java.util.MissingResourceException;
  */
 public class Main {
 
-    public String longestCommonPrefix(String[] strs) {
-        if (strs.length == 0) return "";
-        String prefix = strs[0];
-        for (int i = 1; i < strs.length; i++)
-            while (strs[i].indexOf(prefix) != 0) {
-                prefix = prefix.substring(0, prefix.length() - 1);
-                if (prefix.isEmpty()) return "";
-            }
-        return prefix;
-    }
 
     public static void main(String[] args) {
 
-        Main main = new Main();
-        System.out.println(main.longestCommonPrefix(new String[]{"leets","leetcode","leed","leeds"}));
+        Map<Integer, Integer> map = new TreeMap<Integer, Integer>();
 
+        map.put(23, 23);
+        map.put(12, 12);
+        map.put(83, 83);
+        map.put(43, 43);
+        System.out.println("原数据："+map.toString());
+        map.get(3);
+        System.out.println("查询存在的某一个："+map.toString());
+        map.put(4, 4);
+        System.out.println("插入已存在的某一个："+map.toString()); //直接调用已存在的toString方法，不然自己需要用迭代器实现
+        map.put(110, 10);
+        System.out.println("插入一个原本没存在的："+map.toString());
     }
-
-
-
-
 }

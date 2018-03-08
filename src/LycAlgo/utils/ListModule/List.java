@@ -19,9 +19,12 @@ public class List {
                 ListNode tmp = new ListNode(init[i]);
                 tail.next = tmp;
                 tail = tmp;
-
             }
         }
+    }
+
+    public ListNode getRoot(){
+        return root;
     }
 
     public void showAll() {

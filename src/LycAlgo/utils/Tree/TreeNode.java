@@ -14,8 +14,7 @@ public class TreeNode {
         val = x;
     }
 
-    @Override
-    public String toString(){
+    public String toString2(){
         preOrder(this);
         return stringBuilder.toString();
     }
