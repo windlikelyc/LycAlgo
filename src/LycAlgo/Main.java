@@ -4,9 +4,7 @@ import LycAlgo.utils.Trie.Trie;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.MissingResourceException;
+import java.util.*;
 
 /**
  * Created by lyc on 2017/9/6.
@@ -16,21 +14,50 @@ import java.util.MissingResourceException;
  */
 public class Main {
 
-    public String longestCommonPrefix(String[] strs) {
-        if (strs.length == 0) return "";
-        String prefix = strs[0];
-        for (int i = 1; i < strs.length; i++)
-            while (strs[i].indexOf(prefix) != 0) {
-                prefix = prefix.substring(0, prefix.length() - 1);
-                if (prefix.isEmpty()) return "";
+    public int numJewelsInStones(String J, String S) {
+        Set<Character> set = new HashSet();
+        for(Character c:J.toCharArray()){
+            set.add(c);
+        }
+        int t=0;
+        for(int i = 0 ; i <S.length();i++){
+            if (set.contains(S.charAt(i))) {
+                t++;
             }
-        return prefix;
+        }
+        return t;
     }
+    public List<String> letterCasePermutation(String S) {
+        int B = 0;
+        for (char c: S.toCharArray())
+            if (Character.isLetter(c))
+                B++;
+        List<String> ans = new ArrayList();
+        for (int bits = 0; bits < 1<<B; bits++) {
+            int b = 0;
+            StringBuilder word = new StringBuilder();
+            for (char letter: S.toCharArray()) {
+                if (Character.isLetter(letter)) {
+                    if (((bits >> b++) & 1) == 1)
+                        word.append(Character.toLowerCase(letter));
+                    else
+                        word.append(Character.toUpperCase(letter));
+                } else {
+                    word.append(letter);
+                }
+            }
+
+            ans.add(word.toString());
+        }
+        return ans;
+    }
+
 
     public static void main(String[] args) {
 
         Main main = new Main();
-        System.out.println(main.longestCommonPrefix(new String[]{"leets","leetcode","leed","leeds"}));
+        main.letterCasePermutation("a213b");
+
 
     }
 
