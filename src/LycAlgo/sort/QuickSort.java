@@ -1,7 +1,5 @@
 package LycAlgo.sort;
 
-import java.util.Arrays;
-
 public class QuickSort {
 
     private int partition(int arr[], int low, int high)
@@ -19,14 +17,6 @@ public class QuickSort {
         swap(arr, i + 1, high);
         return i+1;
     }
-
-    private void swap(int[] arr, int i, int j) {
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
-    }
-
-
     public void sort(int arr[], int low, int high)
     {
         if (low < high)
@@ -36,6 +26,15 @@ public class QuickSort {
             sort(arr, pi+1, high);
         }
     }
+
+    private void swap(int[] arr, int i, int j) {
+        int tmp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = tmp;
+    }
+
+
+
 
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();

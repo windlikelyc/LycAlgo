@@ -1,10 +1,9 @@
 package LycAlgo;
 
-import LycAlgo.utils.Trie.Trie;
-
-import java.io.IOException;
-import java.lang.reflect.Field;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by lyc on 2017/9/6.
@@ -52,13 +51,22 @@ public class Main {
         return ans;
     }
 
-
     public static void main(String[] args) {
 
         Main main = new Main();
-        main.letterCasePermutation("a213b");
+        main.showNum(new int[]{10, 2, 4, 5, 6, 7, 3, 1, 9});
 
 
+    }
+
+    public void showNum(int[] a) {
+        int[] b = new int[10];
+        for (int i = 0; i < a.length; i++) {
+            b[a[i] - 1] = a[i];
+        }
+        for (int i = 0; i < b.length; ++i) {
+            System.out.print(b[i] + " ");
+        }
     }
 
 

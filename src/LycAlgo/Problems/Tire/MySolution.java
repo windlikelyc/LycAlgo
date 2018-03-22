@@ -5,7 +5,6 @@ package LycAlgo.Problems.Tire;
  */
 
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -33,9 +32,7 @@ public class MySolution {
                 }
 
             }
-
             ans[i] = (ans[i] == null ? tmp[i] : ans[i]);
-
 
         }
 
@@ -45,8 +42,6 @@ public class MySolution {
             string += " ";
         }
         string += ans[ans.length - 1];
-
-
         System.out.print(string);
 
         return string;
