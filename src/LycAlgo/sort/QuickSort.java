@@ -1,5 +1,7 @@
 package LycAlgo.sort;
 
+import java.util.Arrays;
+
 public class QuickSort {
 
     private int partition(int arr[], int low, int high)
@@ -38,8 +40,9 @@ public class QuickSort {
 
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
-        int[] A = {7, 4, 9, 8, 2, 1, 4, 7, 9, 5};
-        quickSort.sort(A,0,9);
+        int[] A = {2, 1, 3, 4, 12, 45, 543, 32, 12, 5, 3, 6, 1, 2, 8, 7};
+        quickSort.sort(A, 0, A.length - 1);
+        System.out.println(Arrays.toString(A));
         return;
 
     }

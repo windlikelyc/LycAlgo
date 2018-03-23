@@ -1,5 +1,7 @@
 package LycAlgo.sort;
 
+import java.util.Arrays;
+
 public class UnionSort {
 
     public void unionSort(int[] nums, int low, int high) {
@@ -27,8 +29,9 @@ public class UnionSort {
 
     public static void main(String[] args) {
         UnionSort unionSort = new UnionSort();
-        int[] A = new int[]{5, 3, 6, 1, 2, 8, 7};
+        int[] A = new int[]{2, 1, 3, 4, 12, 45, 543, 32, 12, 5, 3, 6, 1, 2, 8, 7};
         unionSort.unionSort(A, 0, A.length - 1);
+        System.out.println(Arrays.toString(A));
         return;
     }
 }
