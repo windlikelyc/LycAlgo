@@ -1,4 +1,4 @@
-package testOffer.Meituan;
+package testOffer.Meituan.minImpossibleCount;
 
 import java.util.Scanner;
 
