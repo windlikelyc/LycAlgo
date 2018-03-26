@@ -1,11 +1,5 @@
 package testDesignPattern.Multition;
 
-import LycAlgo.utils.search.BinarySearch;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class Solution {
     public static void main(String[] args) {
 
