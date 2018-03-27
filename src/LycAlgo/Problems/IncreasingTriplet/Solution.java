@@ -1,6 +1,5 @@
 package LycAlgo.Problems.IncreasingTriplet;
 
-import com.sleepycat.je.tree.IN;
 
 import java.util.Stack;
 
