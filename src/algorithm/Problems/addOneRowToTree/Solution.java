@@ -1,17 +1,14 @@
 package algorithm.Problems.addOneRowToTree;
 
 import algorithm.utils.Tree.Tree;
+import algorithm.utils.Tree.TreeBuilder;
 import algorithm.utils.Tree.TreeNode;
 
 public class Solution {
-
     private static final int LEFT = 1;
-    private static final int RIGHT = 1;
-
+    private static final int RIGHT = 2;
     private int wanted_d;
     private int wanted_v;
-
-
 
     /**
      * 加入一行到二叉树中
@@ -30,15 +27,8 @@ public class Solution {
             treeNode.left = root;
             return treeNode;
         }
-
-        if (root.left != null) {
-            go(root.left,  2, LEFT,root);
-        }
-
-        if (root.right != null) {
-            go(root.right,  2, RIGHT,root);
-        }
-
+        go(root.left,2, LEFT,root);
+        go(root.right, 2, RIGHT,root);
         return root;
 
     }
@@ -74,15 +64,12 @@ public class Solution {
         go(t.right, depth + 1, RIGHT, t);
     }
 
-    public static void main(String[] args) {
-        TreeNode t1 = new TreeNode(2);
-        t1.left = new TreeNode(3);
-        t1.right = new TreeNode(1);
-
+    public static void main(String[] args) throws Exception {
+        TreeBuilder tb = new TreeBuilder(4);
+        TreeNode t1  = tb.left(2).left(3).back().right(1).get();
         Solution solution = new Solution();
-        solution.addOneRow(t1,3,2);
+        solution.addOneRow(t1,1,3);
         Tree tree = new Tree(t1);
         tree.show();
-
     }
 }

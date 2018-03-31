@@ -12,54 +12,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Main main = new Main();
-        List<Integer> l = new ArrayList<>();
-        l.add(1);
-        l.add(8);
-        l.add(5);
-        l.add(6);
-        l.add(7);
-        l.add(8);
-        l.add(2);
-
-
-        int o = main.avg(new int[]{200, 400, 600, 800, 10});
-
-        System.out.println(o);
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        System.out.println(helper(s));
     }
 
-    public List<Integer> mysort(List<Integer> list) {
-
-        int l = list.size();  // l is length
-
-        for (int i = 0; i < l; i++) {
-            int max = Integer.MIN_VALUE;
-            int j = i;
-            int index = -1;
-            for( ; j < l; j++) {
-                if(list.get(j) > max){
-                    max = Math.max(list.get(j), max);
-                    index = j;
+    public static String helper(String s) {
+        int len = s.length();
+        int Sqrt = (int) Math.sqrt(len);
+        for(int i = Sqrt;i>=1;i--) {
+            if (len % i == 0) {
+                String str = s.substring(0, i);
+                String strlen = "";
+                for(int j = 0;j<len/i;j++) {
+                    strlen = strlen + str;
+                }
+                if (s.equals(strlen)) {
+                    return str;
                 }
             }
-            if(index<l&&index!=-1){
-                int tmp = list.get(i);
-                list.set(i, max);
-                list.set(index, tmp);
-            }
         }
-
-        return list;
+        return "false";
     }
 
-
-    public int avg(int[] l) {
-        int sum = 0;
-        for(int i = 0 ; i < l.length ; i++) {
-            sum += l[i];
-        }
-        return sum / l.length;
-    }
 
 
 }
