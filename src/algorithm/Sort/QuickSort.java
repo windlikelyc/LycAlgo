@@ -31,7 +31,7 @@ public class QuickSort {
 
     public static void main(String[] args) {
         QuickSort q = new QuickSort();
-        int[] arr = new int[]{ 2,1};
+        int[] arr = new int[]{ 23,51,12,34,12,45,12,56,2,34,51};
         q.quickSort(arr, 0, arr.length - 1);
         return;
     }
