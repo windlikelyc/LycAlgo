@@ -10,4 +10,16 @@ public class DoubleNode {
     this.value = data;
   }
 
+//  @Override
+//  public String toString() {
+//    DoubleNode d = this;
+//    String tmp = "";
+//    while (d != null && d.next != null) {
+//      tmp += d.value;
+//      tmp += "<-->";
+//      d = d.next;
+//    }
+//    tmp += d.value;
+//    return tmp;
+//  }
 }

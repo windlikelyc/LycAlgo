@@ -1,0 +1,13 @@
+本目录用来快速查找对应题目
+打印两个有序链表的公共部分　PrintPublic
+在单链表和双链表删除倒数第K个节点　DeleteLastK
+删除链表的中间节点和a/b处的节点　DeleteAdivideB
+反转单向链表和反转双向链表　ReverseList
+反转部分单向链表　ReversePart
+环形单链表的约瑟夫问题　JosepushsKill
+判断一个链表是否为回文结构　IsParidrin
+将单向链表按某值划分成左边小中间相等右边大的形式 ListPartition
+复制含有随机指针节点的链表 CopyRandomList
+两个单链表生成相加链表 AddList
+两个单链表相交的一系列问题 GetIntersectNode
+将单链表的每K个节点之间逆序 ReverseEveryK

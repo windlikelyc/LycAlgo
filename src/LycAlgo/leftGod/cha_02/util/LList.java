@@ -29,6 +29,21 @@ public class LList {
     return head;
   }
 
+  public LList deleteN(int n) {
+    if (n == 1) {
+      head = head.next;
+    }
+    if (n > 1) {
+      Node cur = head;
+      while (--n != 1) {
+        cur = cur.next;
+      }
+      cur.next = cur.next.next;
+    }
+    return this;
+  }
+
+
   public  String toString() {
     Node cur = head;
     StringBuilder sb = new StringBuilder();
