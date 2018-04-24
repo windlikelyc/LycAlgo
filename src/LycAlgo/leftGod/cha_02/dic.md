@@ -11,3 +11,6 @@
 两个单链表生成相加链表 AddList
 两个单链表相交的一系列问题 GetIntersectNode
 将单链表的每K个节点之间逆序 ReverseEveryK
+删除无序单链表中值重复出现的节点 DeleteSame
+删除单链表指定节点 DeleteNum
+将二叉搜索树转双向链表

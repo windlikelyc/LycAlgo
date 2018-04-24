@@ -9,18 +9,18 @@ public class Node {
   }
 
 
-//  @Override
-//  public String toString() {
-//    Node t = this;
-//    String res = "";
-//    while (t != null&&t.next != null) {
-//      res += t.value;
-//      res += "-";
-//      t = t.next;
-//    }
-//    res += t.value;
-//    return res;
-//  }
+  @Override
+  public String toString() {
+    Node t = this;
+    String res = "";
+    while (t != null&&t.next != null) {
+      res += t.value;
+      res += "-";
+      t = t.next;
+    }
+    res += t.value;
+    return res;
+  }
 
   public void show(){
     Node t = this;
