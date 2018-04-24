@@ -81,8 +81,8 @@ public class HannoTower {
                             Stack<Integer> fStack, Stack<Integer> tStack, String from, String to) {
     if (record[0] != preNoAct && fStack.peek() < tStack.peek()) {
       tStack.push(fStack.pop());
-      System.out.println("Move" + tStack.peek() + "from"+ from+
-      " to " + to);
+      System.out.println("Move" + tStack.peek() + "from" + from +
+          " to " + to);
       record[0] = nowAct;
       return 1;
     }
