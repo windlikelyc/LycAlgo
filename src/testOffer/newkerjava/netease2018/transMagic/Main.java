@@ -2,53 +2,27 @@ package testOffer.newkerjava.netease2018.transMagic;
 
 import java.util.Scanner;
 
-public class Main {
-  private static int Mapn;
-  private static int[][] copyMap;
-
-  // dfs求不超过L的最大深度
+public class Main{
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int n = scanner.nextInt();
-    Mapn = n;
-    int L = scanner.nextInt();
-    int[][] map = new int[n][n];
-    int[] parent = new int[n - 1];
-    for(int i = 0 ; i < n-1 ;i++) {
-      parent[i] = scanner.nextInt();
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt(), L = scan.nextInt();
+    int parent[] = new int[n];
+    int depth[] = new int[n];
+    int maxDepth = 0;
+    for (int i = 1; i < n; i++) {
+      parent[i] = scan.nextInt();
+      depth[i] = depth[parent[i]] + 1;
+      if (depth[i] > maxDepth)
+        maxDepth = depth[i];
     }
-    for (int i = 0; i < parent.length; i++) {
-      map[parent[i]][i + 1] = 1;
-    }
-    copyMap = map;
-    // 以上保证没有问题
-    int max = -1;
-    int cou = 1;
-    for(int i = 0 ; i < n;i++) {
-      for(int j = i+1 ; j <= n ; j++) {
-        if (copyMap[i][j] == 1) {
-          cou++;
-          copyMap[i][j] = 0;
-          max = Math.max(max, dfs(i, j, cou));
-          cou--;
-        }
-      }
-    }
-
-
-    return;
-  }
-
-  private static int dfs(int i, int j, int count) {
-    for(int a = i;a < Mapn;i++) {
-      for(int b = i+1;j< Mapn;b++){
-        if (copyMap[i][j] == 1) {
-          count++;
-          copyMap[i][j] = 0;
-          dfs(i, j, copyMap);
-          count--;
-        }
-      }
-    }
+    scan.close();
+    int count = 0;
+    if (maxDepth >= L)
+      count = L;
+    else
+      count = (L - maxDepth) / 2 + maxDepth;
+    if(count >= n - 1)
+      count = n - 1;
+    System.out.println(count + 1);
   }
 }
