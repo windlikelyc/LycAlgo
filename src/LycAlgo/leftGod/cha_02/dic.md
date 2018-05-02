@@ -13,4 +13,8 @@
 将单链表的每K个节点之间逆序 ReverseEveryK
 删除无序单链表中值重复出现的节点 DeleteSame
 删除单链表指定节点 DeleteNum
-将二叉搜索树转双向链表
+将二叉搜索树转双向链表 turnBSTtoDLL
+单链表的排序 SortSingleList
+怪异的删除节点方式 removeNodeWired
+向有序的环形单链表插入新节点 insertASCcircule
+合并两个有序的单链表  mergeSortList
