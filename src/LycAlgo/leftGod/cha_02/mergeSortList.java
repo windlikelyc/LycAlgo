@@ -30,8 +30,8 @@ public class mergeSortList {
   }
 
   public static void main(String[] args) {
-    Node head1 = new LList(new int[]{1, 5, 6}).getHead();
-    Node head2 = new LList(new int[]{2, 3, 7}).getHead();
+    Node head1 = new LList(new int[]{1, 4, 7}).getHead();
+    Node head2 = new LList(new int[]{2, 5, 8}).getHead();
     new mergeSortList().merge(head1, head2);
     return;
   }

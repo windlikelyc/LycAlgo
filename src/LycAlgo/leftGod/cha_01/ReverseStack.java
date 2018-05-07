@@ -30,8 +30,8 @@ public class ReverseStack {
     Stack<Integer> stack = new Stack<>();
 
 
-    for (int i = 0; i < 10; i++) {
-      stack.push(new Random().nextInt(10));
+    for (int i = 1; i <= 5; i++) {
+      stack.push(i);
     }
     System.out.println("之前的stack" + stack);
 

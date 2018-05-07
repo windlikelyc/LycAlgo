@@ -18,3 +18,4 @@
 怪异的删除节点方式 removeNodeWired
 向有序的环形单链表插入新节点 insertASCcircule
 合并两个有序的单链表  mergeSortList
+按照左右半区的方式组合单链表  mergeLeftRight
