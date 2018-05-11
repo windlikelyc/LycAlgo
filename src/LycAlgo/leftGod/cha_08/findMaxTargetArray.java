@@ -57,8 +57,33 @@ public class findMaxTargetArray {
     return len;
   }
 
+  // 补充问题1 元素可正可负可为0，求正数与负数相等的最长子数组
+  // 解决方案： 把正数改为1，负数改为-1，求原解法 k = 0
+  public int maxLength_1(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+      if(arr[i] > 0){
+        arr[i] = 1;
+      } else if (arr[i] < 0) {
+        arr[i] = -1;
+      }
+    }
+    return maxLength(arr, 0);
+  }
+
+  //  补充问题2 一个只由 0 1 组成的数组，求0 1个数相等的最长子数组
+  //  解决方案： 0 改为-1，求原解法 k = 0
+  public int maxLength_2(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+      if (arr[i] == 0) {
+        arr[i] = -1;
+      }
+    }
+    return maxLength(arr, 0);
+  }
+
   public static void main(String[] args) {
-    new findMaxTargetArray().maxLength(new int[]{6}, 6);
+
+    System.out.println(new findMaxTargetArray().maxLength_2(new int[]{0,0,1,1,0,1,0,1,0}));
   }
 
 

@@ -4,3 +4,15 @@
 二叉树的序列化和反序列化 SeriaizeTree
 遍历二叉树的神级方法  GodOrder
 在二叉树中找到累加和为指定长度的最长路径 findTargetMaxpath
+找到二叉树中最大的二叉搜索子树 findMaxBST
+找到二叉树中符合搜索二叉树条件的最大拓扑结构  findMaxBSTtopo
+二叉树的按层次打印与Zigzag打印 printZigZag
+调整二叉搜索树的两个错误节点 findTwoErrorinBST
+判断t1是否包含t2树的全部结构 isT1containsT2
+判断一棵树是否是平衡二叉树  judgeIsBST
+根据后序数组重建二叉搜索树 ReBuildBST
+判断一颗二叉树是否为搜索二叉树和完全二叉树 judgeIsSearchOrCom 
+通过有序数组生成平衡搜索二叉树 gernerTree
+在二叉树中找到一个节点的后继节点 FindNext
+二叉树两个节点的公共祖先 CommonAncestor
+二叉树节点的最大距离问题 MaxDistance
