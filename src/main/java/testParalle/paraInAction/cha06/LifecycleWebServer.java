@@ -9,7 +9,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 
-import static com.sun.activation.registries.LogSupport.log;
+import static jdk.nashorn.internal.objects.NativeMath.log;
+
 
 public class LifecycleWebServer
 {
