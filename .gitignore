@@ -6,3 +6,5 @@ lambda.iml
 src/testGame/
 src/testInerit/
 /target/
+target/
+target
